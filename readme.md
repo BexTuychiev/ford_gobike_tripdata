@@ -15,3 +15,7 @@ While exploring the dataset, lots of interesting trends were found. First of all
 ## Key Insights for Presentation
 
 Several plot types have been used to communicate the key findings. The distribution of duration times were plotted using a histogram with a logarithmic transform. Clustered bar charts were used to depict the duration and number of rentals versus user types. To look at three features of rides at the same time, Seaborn's FacetGrid plot type was very handy.
+
+## Links
+
+The dataset used in this project can be found [here](https://s3.amazonaws.com/baywheels-data/2017-fordgobike-tripdata.csv.zip)
