@@ -1,17 +1,17 @@
-# (Dataset Exploration Title)
-## by (your name here)
+# Ford GoBike Tripdata Analysis
+## by Bex
 
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
+> Ford GoBike dataset contains almost 520k unique rides information divided into 13 columns. This dataset provides insights into each rides duration, start and end times, start and end stations as well as whether the user was just a customer or a member.
 
 
 ## Summary of Findings
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
+While exploring the dataset, lots of interesting trends were found. First of all, majority of rides lasted between 5-50 minutes with large outliers like 23 hours. For the analyses to be correct and not biased, only that group of the data was the focus throughout the rest of the investigation. Secondly, the magnitude of user types differed significantly where there almost 100k customers, the subscribers were 4 times more. However, the average ride durations were longer for customers throughout the year 2017. Also, autumn was the best season for biking in that year. When looked at the rental counts in each day of the week, it turned out that weekdays had always seen much higher numbers. Contrastingly, although there were much more rides during weekdays, the rides in weekedns tend to be much longer.
 
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+Several plot types have been used to communicate the key findings. The distribution of duration times were plotted using a histogram with a logarithmic transform. Clustered bar charts were used to depict the duration and number of rentals versus user types. To look at three features of rides at the same time, Seaborn's FacetGrid plot type was very handy.
